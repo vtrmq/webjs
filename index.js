@@ -2,7 +2,7 @@ async function conexion() {
 	const data = {
     message: 'We make a research of fetch'
   }
-	const endpoint = 'http://webjs.co/php/sqlite.php'
+	const endpoint = 'https://webjs.co/php/sqlite.php'
 	let result = await fetch(endpoint, {
     method: 'POST',
     body: JSON.stringify(data)
